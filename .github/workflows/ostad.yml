@@ -47,9 +47,6 @@ jobs:
           pm2 start npm --name "Server" -- run dev
           pm2 save
 
-      - name: Check Server
-        run: pm2 logs Server --lines 10
-
 # name: CI CD pipeline => Ostad
 
 # on:
