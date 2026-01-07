@@ -47,8 +47,8 @@ jobs:
           pm2 start npm --name "Server" -- run dev
           pm2 save
 
-      # - name: Check Server
-      #   run: curl http://localhost:3000
+      - name: Check Server
+        run: curl http://localhost:3000
 
 # name: CI CD pipeline => Ostad
 
