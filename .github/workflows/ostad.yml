@@ -48,7 +48,7 @@ jobs:
           pm2 save
 
       - name: Check Server
-        run: curl http://http://16.16.96.37:3000
+        run: curl http://16.16.96.37:3000
 
 # name: CI CD pipeline => Ostad
 
