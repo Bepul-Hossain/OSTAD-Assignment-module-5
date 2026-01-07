@@ -43,8 +43,9 @@ jobs:
 
       - name: Deploy to Server
         run: |
-          pm2 delete "Server" || true
-          pm2 start "npm run dev" --name="Server"
+          pm2 delete Server || true
+          pm2 start npm --name "Server" -- run dev
+          pm2 save
 
       # - name: Check Server
       #   run: curl http://localhost:3000
