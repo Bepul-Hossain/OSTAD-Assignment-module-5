@@ -1,10 +1,7 @@
 ![My Screenshot](images/1.png)
 ![My Screenshot](images/2.png)
-
-Troubleshot
-
-
-
+![My Screenshot](images/3.png)
+![My Screenshot](images/4.png)
 
 =================================================================================
 
