@@ -48,7 +48,7 @@ jobs:
           pm2 save
 
       - name: Check Server
-        run: pm2 logs Server --lines 5
+        run: pm2 logs Server --lines 10
 
 # name: CI CD pipeline => Ostad
 
